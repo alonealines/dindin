@@ -10,12 +10,18 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
   </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+  </style>
 </head>
 
 <body>
+
   <header>
-    <img src="/img/logo-header.png" alt="logo-dindin" width="244" height="77">
-    <nav>
+    <div class="logo-header">
+      <img src="/img/logo-header.png" alt="logo-dindin" width="244" height="77">
+    </div>
+    <nav aria-label="menu">
       <ul>
         <li><a href="/cursos.html" target="_self">cursos</a> </li>
         <li><a href="/blog.html" target="_self">blog</a> </li>
@@ -37,64 +43,108 @@
         <img src="/img/ilustra-banner.png" alt="ilustra-banner">
       </div>
     </section>
-
-    <section>
-      <div class="sessao-2">
-        <div class="conteudo-2">
-          <img src="/img/ilustra-poupando.png" alt="" width="288" height="270">
-          <h3>Investimento para iniciantes</h3>
-          <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
-          <span class="botao-2">começar agora</span>
-        </div>
-
-        <div class="conteudo-2">
-          <img src="/img/ilustra-investimento.png" alt="" width="288" height="270">
-          <h3>Poupando e Rendendo</h3>
-          <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
-          <span class="botao-2">começar agora</span>
-        </div>
-
-        <div class="conteudo-2">
-          <img src="/img/ilustra-independencia.png" alt="" width="288" height="270">
-          <h3>Independência Financeira</h3>
-          <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
-          <span class="botao-2">começar agora</span>
-        </div>
+  </main>
+  <section aria-labelledby="tipos de investimento">
+    <div class="sessao-2">
+      <div class="conteudo-2">
+        <img src="/img/ilustra-poupando.png" alt="" width="288" height="270">
+        <h3 class="subtitulo">Investimento para iniciantes</h3>
+        <p class="paragrafo">Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
+        <span class="botao-2">começar agora</span>
       </div>
-    </section>
-
-    <section>
-      <div class="sessao-3">
-        <span class="titulo-conteudo">O QUE FALAM SOBRE NÓS</span>
-        <div class="conteudo-3">
-          <img src="/img/icon-wally.png" alt="wally, 25 anos">
-          <div class="texto-1">
-            <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
-            <span class="nome-idade">Wally, 25</span>
-          </div>
-          <img src="/img/icon-whoopi.png" alt="whoopi, 37 anos">
-          <div class="texto-1">
-          <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
-          <span class="nome-idade">Whoopi Goldberg, 37</span>
-        </div>
+      <div class="conteudo-2">
+        <img src="/img/ilustra-investimento.png" alt="" width="288" height="270">
+        <h3>Poupando e Rendendo</h3>
+        <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
+        <span class="botao-2">começar agora</span>
       </div>
 
+      <div class="conteudo-2">
+        <img src="/img/ilustra-independencia.png" alt="" width="288" height="270">
+        <h3>Independência Financeira</h3>
+        <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore <br> eu fugiat nulla pariatur.</p>
+        <span class="botao-2">começar agora</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sessao-3">
+      <span class="titulo-1">O QUE FALAM SOBRE NÓS</span>
       <div class="conteudo-3">
         <img src="/img/icon-wally.png" alt="wally, 25 anos">
         <div class="texto-1">
           <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
           <span class="nome-idade">Wally, 25</span>
         </div>
-
         <img src="/img/icon-whoopi.png" alt="whoopi, 37 anos">
         <div class="texto-1">
-        <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
-        <span class="nome-idade">Whoopi Goldberg, 37</span>
+          <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+          <span class="nome-idade">Whoopi Goldberg, 37</span>
+        </div>
       </div>
+      <div class="conteudo-3">
+        <img src="/img/icon-jaden.png" alt="jaden, 23 anos">
+        <div class="texto-1">
+          <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+          <span class="nome-idade">Jaden Smith, 23</span>
+        </div>
+        <img src="/img/icon-jane.png" alt="jane, 29 anos">
+        <div class="texto-1">
+          <p>”Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+          <span class="nome-idade">Janes Joplin, 29</span>
+        </div>
       </div>
-    </section>
+  </section>
 
-  </main>
+  <section>
+    <div class="sessao-4">
+      <span class="titulo-2">MAIS CONTEÚDO PARA VOCÊ</span>
+      <div class="conteudo-4">
+        <div class="bloco">
+          <div class="retangulo"></div>
+          <h3>Itaque earum rerum </h3>
+          <p>hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br>
+            consequatur aut perferendis doloribus <br> asperiores repellat.</p>
+        </div>
+        <div class="bloco">
+          <div class="retangulo"></div>
+          <h3>Itaque earum rerum </h3>
+          <p>hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br>
+            consequatur aut perferendis doloribus <br> asperiores repellat.</p>
+        </div>
+        <div class="bloco">
+          <div class="retangulo"></div>
+          <h3>Itaque earum rerum </h3>
+          <p>hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br>
+            consequatur aut perferendis doloribus <br> asperiores repellat.</p>
+        </div>
+      </div>
+      <span class="botao-3">ver todos os posts</span>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="logo-footer">
+      <img src="/img/logo-footer.png" alt="rodapé">
+    </div>
+    <div>
+      <ul>
+        <a href="/cursos.html">
+          <li>cursos</li>
+        </a>
+        <a href="/blog.html">
+          <li>blog</li>
+        </a>
+        <a href="/contato.html">
+          <li>contato</li>
+        </a>
+      </ul>
+    </div>
+    <div class="bloco-1">
+      <span class="botao-4">quero ser prof</span>
+      <span class="botao-4">aqui tem outro link</span>
+    </div>
+  </footer>
 </body>
-
 </html>

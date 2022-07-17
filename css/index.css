@@ -22,10 +22,15 @@ header {
   background: #2e948a;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   position: relative;
   box-shadow: 0px 4px 4px rgba(108, 102, 102, 0.371);
 }
 
+.logo-header {
+  margin-left: 103px;
+}
 nav ul li a {
   font-size: 20px;
   line-height: 23px;
@@ -41,6 +46,7 @@ nav ul {
   gap: 37px;
   list-style: none;
   padding: 20px;
+  margin-right: 103px;
 }
 
 .sessao-1 {
@@ -82,7 +88,6 @@ nav ul {
   top: 577px;
   border-radius: 62px;
   border: 2px solid rgba(255, 64, 129, 1);
-
   font-size: 27px;
   font-weight: 400;
   line-height: 31px;
@@ -141,13 +146,12 @@ nav ul {
 .sessao-3 {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
- padding-left: 300px;
+  margin: 0px;
+  padding: 109px;
+  padding-left: 350px;
 }
 
-.titulo-conteudo {
+.titulo-1 {
   font-family: Nunito, sans-serif;
   font-size: 37px;
   font-weight: 700;
@@ -155,15 +159,127 @@ nav ul {
   letter-spacing: 0em;
   text-align: left;
   color: rgba(0, 150, 136, 1);
-  padding: 40px;  
+  padding: 40px;
 }
 
 .conteudo-3 {
   display: flex;
   padding: 50px;
-  gap: 30px;
+  gap: 40px;
 }
 
 .texto-1 {
   gap: 50px;
+}
+
+.sessao-4 {
+  padding: 140px;
+  background: rgba(246, 246, 246, 1);
+  gap: 121px;
+}
+
+.titulo-2 {
+  color: #009688;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  padding-left: 80px;
+}
+
+.retangulo {
+  width: 319px;
+  height: 193px;
+  left: 128px;
+  top: 2467px;
+  background: #c4c4c4;
+  margin-top: 70px;
+}
+
+.conteudo-4 h3 {
+  color: #009688;
+  width: 400;
+  font-size: 27px;
+  line-height: 31.02px;
+  margin-top: 20px;
+}
+
+.conteudo-4 p {
+  width: 400;
+  font-size: 18px;
+  line-height: 20.68px;
+}
+
+.conteudo-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-3 {
+  border-radius: 62px;
+  border: 2px solid rgba(255, 64, 129, 1);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 64, 129, 1);
+  padding: 10px 40px;
+  position: relative;
+  top: 50px;
+  left: 635px;
+}
+
+.bloco {
+  margin-left: 90px;
+}
+
+.rodape {
+  background: #419488;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  
+}
+
+.logo-footer {
+  margin-top: 20px;
+}
+.rodape ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.rodape li {
+  padding: 5px;
+}
+
+.botao-4 {
+  border-radius: 62px;
+  border: 2px solid #ffffff;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 40px;
+ 
+}
+
+
+.bloco-1 {
+  display: grid;
+  gap: 20px;
+  
 }
