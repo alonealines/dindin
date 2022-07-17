@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
+  max-width: 1920px;
 }
 
 h1,
@@ -12,10 +13,14 @@ p {
   margin-top: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 header {
   background: #2e948a;
   display: flex;
-
   justify-content: space-between;
   position: relative;
   box-shadow: 0px 4px 4px rgba(108, 102, 102, 0.371);
@@ -25,13 +30,140 @@ nav ul li a {
   font-size: 20px;
   line-height: 23px;
   font-weight: 700;
+  text-transform: uppercase;
   color: white;
   text-decoration: none;
+  padding: 20px;
 }
 nav ul {
   display: flex;
-
   flex-wrap: nowrap;
   gap: 37px;
   list-style: none;
+  padding: 20px;
+}
+
+.sessao-1 {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  padding: 90px;
+  gap: 150px;
+  background: #ffff;
+}
+
+.sessao-1 h1 {
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 64, 129, 1);
+}
+
+.sessao-1 p {
+  font-family: Ubuntu;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(85, 85, 85, 1);
+  padding: 10px;
+}
+
+.botao-1 {
+  height: 51px;
+  width: 268px;
+  left: 207px;
+  top: 577px;
+  border-radius: 62px;
+  border: 2px solid rgba(255, 64, 129, 1);
+
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-self: center;
+  color: rgba(255, 64, 129, 1);
+  padding: 10px 30px;
+}
+
+.sessao-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 109px;
+  background: rgba(246, 246, 246, 1);
+  gap: 121px;
+}
+
+.sessao-2 h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 10px;
+  color: rgba(255, 64, 129, 1);
+}
+
+.sessao-2 p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.botao-2 {
+  width: 233px;
+  height: 51px;
+  left: 184px;
+  top: 1391px;
+  background: #ff4081;
+  border-radius: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 15px 40px;
+  color: #ffffff;
+  margin: 70px;
+}
+
+.sessao-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+ padding-left: 300px;
+}
+
+.titulo-conteudo {
+  font-family: Nunito, sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 150, 136, 1);
+  padding: 40px;  
+}
+
+.conteudo-3 {
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+}
+
+.texto-1 {
+  gap: 50px;
 }
