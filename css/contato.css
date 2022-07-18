@@ -1,0 +1,65 @@
+.forms-inside {
+  padding: 60px;
+  margin: 30px;
+}
+
+.forms-inside h1 {
+  color: #ff4081;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 90px;
+  margin-left: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+#nome,
+#email {
+  font-size: 15px;
+  border: 1px solid #686868;
+  margin-bottom: 23px;
+  border-radius: 7px;
+  height: 32px;
+  width: 493px;
+  left: 3px;
+  top: 90px;
+  border-radius: 7px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#mensagem {
+  border: 1px solid #686868;
+  margin-bottom: 23px;
+  border-radius: 7px;
+  height: 193px;
+  width: 493px;
+  left: 3px;
+  top: 183px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.botao-6 {
+  background: #ff4081;
+  height: 32px;
+  width: 108px;
+  left: 3px;
+  top: 391px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
