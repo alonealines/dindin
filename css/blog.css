@@ -1,0 +1,53 @@
+.conteudo-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+  gap: 150px;
+}
+
+.conteudo-7 h2 {
+  color: #009688;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.conteudo-7 p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.conteudo-9 {
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.conteudo-9 h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff4081;
+  padding-top: 20px;
+}
+
+.paragrafo {
+  margin-bottom: 100px;
+}
+
+.retangulo {
+  width: 450px;
+  height: 193px;
+  left: 128px;
+  top: 2467px;
+}
