@@ -1,0 +1,60 @@
+.conteudo-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 109px;
+  gap: 90px;
+}
+
+.conteudo-7 h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff4081;
+}
+
+.conteudo-7 p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.conteudo-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  padding: 109px;
+  gap: 90px;
+}
+
+.conteudo-8 h3 {
+  color: #FF4081;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.conteudo-8 p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+
+.linha-2 {
+  position: absolute;
+  width: 1244px;
+  height: 3px;
+  left: 350px;
+  margin-top: 500px;
+  background: #C4C4C4;
+}
