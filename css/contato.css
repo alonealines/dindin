@@ -64,47 +64,7 @@
   text-align: center;
 }
 
-/* Abaixo de 500px */
-@media (max-width: 500px) {
-  header {
-    display: grid;
-  }
-  header img {
-    margin-right: 50px;
-  }
-  nav li {
-    margin: -10px;
-  }
 
-  .formulario {
-    padding: 10px;
-    justify-content: center;
-    margin: 0px auto;
-  }
-
-  #nome,
-  #email {
-    width: 300px;
-  }
-
-  #mensagem {
-    width: 300px;
-  }
-
-  .botao-4 {
-  justify-content: center;
-  align-items: center;
-  }
-
-.bloco-1 span {
-  display: contents;
-  font-size: 20px;
-}
-
-  .rodape li {
-    display: none;
-  }
-}
 
 /* Abaixo de 800 px */
 @media (max-width: 800px) {
@@ -115,30 +75,40 @@
   }
 
   header img {
-    margin-left: 70px;
+    margin: 40px;
   }
 
   nav ul {
     display: flex;
-    margin-left: 80px;
+    padding-left: 110px;
+  }
+
+  nav li {
+    margin: -15px;
   }
 
   .formulario {
-    padding: 10px;
-    margin-left: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-right: 100px;
   }
 
+  .forms-inside h1 {
+    font-size: 50px;
+  }
   .formulario img {
-    height: 400px;
+    display: none;
   }
 
   #nome,
   #email {
-    width: 300px;
+    width: 320px;
   }
 
   #mensagem {
-    width: 300px;
+    width: 320px;
   }
 
   .botao-4 {
@@ -153,29 +123,52 @@
   }
 }
 
-/* Abaixo de 400px */
-@media (max-width: 400px) {
+/* Abaixo de 565px */
+@media (max-width: 565px) {
   header {
     display: grid;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   header img {
-    margin: 0px;
+    display: inline-block;
   }
 
-  nav ul {
-    display: flex;
-    margin-left: 80px;
+  nav ul li a {
+    display: inline-block;
+    padding: -50px;;
   }
- 
   nav li {
     display: flex;
-    margin: -30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
   }
 
-  .formulario {
-    padding: 10px;
-    justify-content: center;
-    margin: 0px auto;
+ .forms-inside {
+  display: grid;
+ }
+  .forms-inside h1 {
+    font-size: 40px;
+  }
+  .formulario img {
+    display: none;
+  }
+
+  #nome,
+  #email {
+    width: 320px;
+  }
+
+  #mensagem {
+    width: 320px;
+  }
+ 
+  .rodape span {
+    display: contents;
+  }
+  .rodape ul {
+    display: none;
   }
 }
