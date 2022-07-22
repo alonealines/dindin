@@ -2,11 +2,10 @@
   margin: 90px;
   margin-left: 310px;
   gap: 50px;
-
 }
 
 .titulo-3 h1 {
-  color: #FF4081;
+  color: #ff4081;
   font-size: 60px;
   font-weight: 700;
   line-height: 69px;
@@ -15,24 +14,23 @@
 }
 
 .titulo-3 p {
-margin-top: -30px;
-font-size: 20px;
-font-weight: 400;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
-
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .sessao-5 {
- display: flex;
- flex-direction:row;
- justify-content: center;
- align-items: center;
-padding: 40px;
-padding-bottom: 150px;
-gap: 50px;
-position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 150px;
+  gap: 50px;
+  position: relative;
 }
 
 .sessao-5 h3 {
@@ -46,18 +44,17 @@ position: relative;
 }
 
 .conteudo-5 {
- display: grid;
- justify-items: left;
- gap: 30px;
-  
+  display: grid;
+  justify-items: left;
+  gap: 30px;
 }
 
 .conteudo-5 p {
-font-size: 18px;
-font-weight: 300;
-line-height: 21px;
-letter-spacing: 0em;
-padding-left: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-left: 10px;
 }
 
 .botao-5 {
@@ -72,10 +69,47 @@ padding-left: 10px;
 }
 
 .linha {
-position: absolute;
-width: 1244px;
-height: 5px;
-top: 450px;
-background: #C4C4C4;
-margin: 40px;
+  position: absolute;
+  width: 1244px;
+  height: 5px;
+  top: 450px;
+  background: #c4c4c4;
+  margin: 40px;
+}
+
+@media (max-width: 565px) {
+  .titulo-3 {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .titulo-3 h1 {
+    font-size: 40px;
+  }
+
+  .titulo-3 p {
+    font-size: 18px;
+    padding: 0 auto;
+  }
+  .sessao-5 img {
+    display: none;
+  }
+  .linha {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+.linha {
+  display: none;
+}
+
+}
+
+@media (max-width: 1024px) {
+  .linha {
+    width: 944px;
+  }
 }

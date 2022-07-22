@@ -78,11 +78,11 @@
 
   nav ul {
     display: flex;
-    padding-left: 110px;
+    padding-left: 40px;
   }
 
   nav li {
-    margin: -20px;
+    margin: 0px;
   }
 
   .formulario {
