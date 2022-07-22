@@ -111,7 +111,6 @@
   }
   .rodape img {
     width: 300px;
-    /* margin-left: -60px; */
   }
 
   body,
@@ -122,23 +121,11 @@
 
 /* Abaixo de 565px */
 @media (max-width: 565px) {
-
-  header {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-
   header img {
-    margin-left: -30px;
+    margin: -5px;
   }
-  nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  nav ul li a {
-   font-size: 15px;
+  nav li {
+    margin: 5px;
   }
 
   .conteudo-7 {
@@ -164,16 +151,16 @@
 
   .bloco h3 {
     width: 300px;
-    overflow-wrap: break-word;  
-    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     word-break: break-word;
   }
   .bloco p {
     font-size: 15px;
     font-weight: 400;
     width: 200px;
-    overflow-wrap: break-word;  
-    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     word-break: break-word;
   }
 
@@ -218,5 +205,4 @@
     justify-content: center;
     align-items: center;
   }
-
 }

@@ -145,10 +145,9 @@ nav ul {
 
 .sessao-3 {
   display: grid;
-  grid-template-columns: 1fr;
-  margin: 0px;
-  padding: 109px;
-  padding-left: 350px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
 .titulo-1 {
@@ -164,8 +163,8 @@ nav ul {
 
 .conteudo-3 {
   display: flex;
-  padding: 50px;
-  gap: 40px;
+  margin: 50px;
+  gap: 70px;
 }
 
 .texto-1 {
@@ -184,7 +183,8 @@ nav ul {
   font-weight: 700;
   line-height: 43px;
   letter-spacing: 0em;
-  padding-left: 80px;
+  display: flex;
+  justify-content: center;
 }
 
 .retangulo {
@@ -201,7 +201,7 @@ nav ul {
   width: 400;
   font-size: 27px;
   line-height: 31.02px;
-  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .conteudo-4 p {
@@ -211,10 +211,10 @@ nav ul {
 }
 
 .conteudo-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .botao-3 {
@@ -227,9 +227,13 @@ nav ul {
   text-align: center;
   color: rgba(255, 64, 129, 1);
   padding: 10px 40px;
+  top: 30px;
+  right: -700px;
   position: relative;
-  top: 50px;
-  left: 635px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .bloco {
@@ -241,7 +245,6 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  
 }
 
 .logo-footer {
@@ -252,12 +255,11 @@ nav ul {
   list-style: none;
   color: #ffffff;
   font-family: Ubuntu;
-font-size: 20px;
-font-weight: 400;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .rodape li {
@@ -274,12 +276,244 @@ text-align: left;
   text-align: center;
   color: #ffffff;
   padding: 15px 40px;
- 
 }
-
 
 .bloco-1 {
   display: grid;
   gap: 20px;
-  
+}
+
+@media (max-width: 1024px) {
+  .sessao-1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sessao-1 img {
+    height: 50px;
+  }
+  .conteudo-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-1 h1 {
+    font-size: 60px;
+    width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .conteudo-1 p {
+    font-size: 30px;
+  }
+
+  .botao-1 {
+    text-align: center;
+    padding: 3px 15px;
+    color: #ff4081;
+  }
+
+  .sessao-2 {
+    display: grid;
+  }
+
+  .sessao-3 {
+    display: flexbox;
+    padding: 40px;
+  }
+
+  .conteudo-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .botao-3 {
+    position: relative;
+    margin-left: -650px;
+  }
+}
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+  }
+
+  .logo-header {
+    display: flex;
+    margin: 0 auto;
+  }
+  nav ul {
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  nav li a {
+    margin: -30px;
+    padding: 10px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .botao-1 {
+    padding: 0px;
+  }
+  .sessao-3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteudo-3 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .conteudo-3 img {
+    width: 150px;
+  }
+
+  .conteudo-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-2 {
+    display: flex;
+    width: max-content;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .botao-3 {
+    font-size: 25px;
+  }
+
+  .botao-4 {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .rodape ul {
+    display: none;
+  }
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 565px) {
+  header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conteudo-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  .conteudo-1 h1 {
+    width: 480px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-size: 40px;
+  }
+
+  .conteudo-1 p {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    
+  }
+
+  .botao-1 {
+    display: grid;
+    font-size: 20px;
+    padding: 0.1ch;
+    align-items: center;
+    
+  }
+
+  .sessao-2 {
+    display: grid;
+  }
+  .conteudo-2 img {
+    display: none;
+  }
+
+  .conteudo-2 {
+    margin: -30px;
+  }
+
+  .botao-2 {
+    display:grid;
+    font-size: 15px;
+    padding: 0.2ch;
+    align-items: center;
+    margin: -5px;
+  }
+
+  .conteudo-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sessao-4 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .titulo-2 {
+    display: grid;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: -90px;
+  }
+
+  .retangulo {
+    width: 200px;
+    
+  }
+  .conteudo-4 {
+    display: grid;
+    grid-template-columns: 2fr;
+   margin: -150px;
+  }
+
+  .conteudo-4 h3 {
+    font-size: 25px;
+  }
+  .conteudo-4 p {
+    font-size: 15px;
+  }
+  .botao-3 {
+    display: none;
+  }
+
+  .rodape {
+    display: grid;
+    gap: 20px;
+  }
+
+  .rodape img {
+    width: 250px;
+  }
+
+.rodape span {
+  padding: 0.2ch;
+}
 }
