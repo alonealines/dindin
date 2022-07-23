@@ -283,7 +283,7 @@ a {
   gap: 20px;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1440px) {
   .botao-2 {
     display:flex;
     font-size: 23px;
@@ -297,7 +297,7 @@ a {
   }
 
 }
-@media (max-width: 1092px) {
+@media (max-width: 1024px) {
   .sessao-1 {
     display: grid;
     justify-content: center;
