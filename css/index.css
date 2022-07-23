@@ -283,6 +283,20 @@ a {
   gap: 20px;
 }
 
+@media (max-width: 2000px) {
+  .botao-2 {
+    display:flex;
+    font-size: 23px;
+    padding: 0.1ch;
+    align-items: center;
+    justify-content: center;
+  }
+  .botao-3 {
+    position: relative;
+    margin-left: -230px;
+  }
+
+}
 @media (max-width: 1024px) {
   .sessao-1 {
     display: grid;
