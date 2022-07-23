@@ -297,7 +297,7 @@ a {
   }
 
 }
-@media (max-width: 1092px) and (min-width:1000px){
+@media (max-width: 1092px) {
   .sessao-1 {
     display: grid;
     justify-content: center;
